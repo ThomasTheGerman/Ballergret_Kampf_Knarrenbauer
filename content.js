@@ -19,8 +19,12 @@ function findAndReplace(){
 
 function replaceText (node) {
   let value = node.nodeValue;
-  value = value.replace(/Brexit/gi, 'Breadsticks');
-  value = value.replace(/brexit/gi, 'breadsticks');
+  value = value.replace(/Annegret Kramp-Karrenbauer/gi, 'Ballergret Kampf-Knarrenbauer');
+  value = value.replace(/Kramp-Karrenbauer/gi, 'Kampf-Knarrenbauer');
+  value = value.replace(/Kramp/gi, 'Kampf');
+  value = value.replace(/ Annegret/gi, 'Ballergret');
+  value = value.replace(/Karrenbauer/gi, 'Knarrenbauer');
+  value = value.replace(/AKK/gi, 'AKK-47');
   node.nodeValue = value;
 }
 

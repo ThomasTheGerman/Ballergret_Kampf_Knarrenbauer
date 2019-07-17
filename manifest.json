@@ -1,12 +1,14 @@
 {
   "manifest_version": 2,
 
-  "name": "Brexit means Breadsticks",
-  "version": "0.1.4",
-  "description": "Turns every mention of Brexit on any website into 'breadsticks'",
-  "icons": { "16": "images/breadsticks16.png",
-           "48": "images/breadsticks48.png",
-          "128": "images/breadsticks128.png" },
+  "name": "Kampf-Knarrenbauer",
+  "version": "0.1",
+  "description": "Ballergret Kampf-Knarrenbauer wird Verteidigungsministerin",
+  "icons": { "16": "icon16.png",
+            "32": "icon32.png",
+           "48": "icon48.png",
+          "128": "icon128.png",
+          "256": "icon256.png" },
   "content_scripts": [
     {
     "matches": ["*://*/*"],
