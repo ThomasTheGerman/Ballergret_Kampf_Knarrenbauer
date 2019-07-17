@@ -24,7 +24,7 @@ function replaceText (node) {
   value = value.replace(/Kramp/gi, 'Kampf');
   value = value.replace(/ Annegret/gi, 'Ballergret');
   value = value.replace(/Karrenbauer/gi, 'Knarrenbauer');
-  value = value.replace(/AKK/gi, 'AKK-47');
+  value = value.replace(/AKK /gi, 'AKK-47');
   node.nodeValue = value;
 }
 
